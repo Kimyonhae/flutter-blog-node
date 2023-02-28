@@ -19,7 +19,7 @@ class BlogController {
     };
 
     static package = async(req,res) => {
-        this.fileFcMethod(res,"package");
+        this.fileFcMethod(res,"lib");
     };
 }
 module.exports = BlogController;
