@@ -14,6 +14,6 @@ router.get("/state",controller.state);
 
 router.get("/widget",controller.widget);
 
-router.get("/libs",controller.package);
+router.get("/package",controller.package);
 
 module.exports = router;
