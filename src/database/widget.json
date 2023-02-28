@@ -1,0 +1,6 @@
+[
+    {
+        "title": "1. Container Widget",
+        "content" : "Container의 타입은 widget 입니다.\n width = 가로 너비를 지정할수 있는 속성.\n height = 세로 너비를 지장힐수 이는 속성.\n margin = Container의 border 밖의 부분을 지정하는 속성.\n padding = Container의 border 안쪽 부분을 지정하는 속성.\n alignment = child widget의 위치를 지정해줄수 있습니다 또한 정확환 위치 구현할때도 사용합니다. type은 Alignment 이며 dot하시면 많은 자동완성을 볼수 있습니다.\n 정확한 좌표를 사용하고 싶을 경우 Alignment(0,0) 이 center 기준이며 x축 y축 으로 사용하면 됩니다. 그리고 최대값은 1입니다.\n decoration : BoxDecoration 타입을 쓸수 있으며 그 안에 border, borderRadius, color, boxshadow 를 넣을수 있습니다.주의할점은 decoration 속성을 넣어두고 Container widget에 color를 넣으면 erorr가 나옵니다. 꼭 decoration 쓰시면 color는 decoration 안에 넣으세요.\n boxshadow = decoration 하위 속성이며 List<BoxShadow>> type입니다. 즉 배열로 넣어야 하며 BoxShadow 안에는 color, offset, blurRadius, spreadRadius 속성이 있습니다\n offset의 type은 Offset입니다. 두가지 인자를 넣을수 있는데요 첫번째 인자는 x축 반대기준 두번째 인자는 y축 반대기준입니다.\n blurRadius는 shadow의 radius값을 지정한다. type은 double \n spreadRadius 는 shadow가 퍼지는 값을 지정해주는 속석입니다.\n"
+    }
+]
